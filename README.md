@@ -9,7 +9,7 @@ hostname.
 
 ```hcl
 module "app_service" {
-  source = "github.com/cybercapybara/terraform-azurerm-app-service"
+  source = "github.com/moveeeax/terraform-azurerm-app-service"
 
   name                = "prod-webapp01"
   service_plan_name   = "prod-asp"
